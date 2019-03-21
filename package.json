@@ -1,0 +1,48 @@
+{
+  "name": "LearnLanguages",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "immutability-helper": "^2.7.1",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "qs": "^6.5.2",
+    "react": "16.5.0",
+    "react-native": "0.57.1",
+    "react-native-admob": "^2.0.0-beta.5",
+    "react-native-dialog": "^5.5.0",
+    "react-native-exit-app": "^1.0.0",
+    "react-native-i18n": "^2.0.15",
+    "react-native-iap": "^2.2.2",
+    "react-native-iphone-x-helper": "^1.2.0",
+    "react-native-modal-selector": "^1.0.0",
+    "react-native-parsed-text": "0.0.20",
+    "react-native-render-html": "^3.10.0",
+    "react-native-segmented-control-tab": "^3.3.1",
+    "react-native-sentry": "^0.39.0",
+    "react-native-slider": "^0.11.0",
+    "react-native-sliding-up-panel": "^1.1.12",
+    "react-native-switch": "^1.5.0",
+    "react-native-vector-icons": "^5.0.0",
+    "react-native-video": "^3.2.0",
+    "react-native-walkthrough-tooltip": "^0.3.0",
+    "react-native-youtube": "^1.1.0",
+    "react-navigation": "^2.11.2",
+    "rn-sliding-up-panel": "^1.2.1",
+    "xmldom": "^0.1.27"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.4",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
