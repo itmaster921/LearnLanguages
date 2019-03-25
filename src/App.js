@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {RootStack} from './router'
 import store from './store';
 import { NavigationActions } from 'react-navigation';
-import {getVideoIdFromYoutubeLink} from './utils';
+
 
 //Jtx7lNsSPPQ
 export default class App extends Component{
