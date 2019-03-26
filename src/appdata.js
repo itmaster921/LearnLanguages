@@ -68,7 +68,7 @@ async function addHistoryVideo(videoItem){
 
 async function getCurrentTimeForHistoryVideo(videoId){
     let historyVideos = await getHistoryVideos();
-    let videoItem = historyVideos.find((item)=>item.id==videoId);
+    // let videoItem = historyVideos.find((item)=>item.id==videoId);
     if(videoItem){
         return videoItem.currentTime;
     }else{
