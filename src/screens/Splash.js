@@ -24,7 +24,7 @@ export default class Splash extends Component {
         let firstRunTime = await appdata.getItem('first-run-time');
         if(!firstRunTime) {
             let time = new Date().getTime();
-            appdata.setItem('first-run-time', time);
+            // appdata.setItem('first-run-time', time);
         }
 
         await this.checkPurchase();
