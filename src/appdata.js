@@ -9,15 +9,7 @@ export const FAV_ICON = "https://facebook.github.io/react-native/docs/assets/fav
 export const TARGET_LANG = 'es';
 export const NATIVE_LANG = 'en';
 export const APP_NAME = 'Scene by Scene - Spanish';
-export const FREE_USE_TIME = 5 * 60 * 1000;
-export const ITEM_SKU = Platform.select({
-    ios: 'com.scenebyscene.spanish.monthly.payment',
-    android: 'monthly.payment'
-});
-export const AD_UNIT_ID = Platform.select({
-    ios: 'ca-app-pub-9420106611131539/6661877395',
-    android: 'ca-app-pub-9420106611131539/9211308675'
-});
+
 export const PRIVACY_POLICY_URL = "https://www.freeprivacypolicy.com/privacy/view/49009ffebb8f813a5fc29a1bb04f1bc0"
 export const TERMS_OF_SERVICE_URL = "https://sbslanguage.com/tos"
 export const LANGUAGES = [
