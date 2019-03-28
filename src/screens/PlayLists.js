@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View, Button, FlatList, Image, Platform, TouchableOpacity} from 'react-native';
+import {StyleSheet, Text, View, Button, FlatList, Image, TouchableOpacity} from 'react-native';
 import PlayListItem from "../components/PlayListItem";
 import api from '../api';
 import {getVideoIdFromYoutubeLink} from '../utils';
