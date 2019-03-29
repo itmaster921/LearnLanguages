@@ -30,6 +30,11 @@ export const LANGUAGES = [
         code: 'ar'
     },
 ]
+export const AD_UNIT_ID = Platform.select({
+    ios: 'ca-app-pub-9420106611131539/6661877395',
+    android: 'ca-app-pub-9420106611131539/9211308675'
+});
+
 async function getItem(key){
     const valueStr = await AsyncStorage.getItem(key)
     try {
